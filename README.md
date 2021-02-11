@@ -1,2 +1,2 @@
 # Apuntes_git
-Es un repositorio con archivos de texto con apuntes de git.
+Es un repositorio que contiene archivos de texto con apuntes de git.
