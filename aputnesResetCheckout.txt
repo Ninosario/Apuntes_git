@@ -1,0 +1,11 @@
+Para volver a un commit anterior para ponerlo como HEAD
+
+	git reset (identificador de commit) --hard
+
+	*Cuando haces este borra todos los commits anteriores. 
+ 
+Para volver a una versión anterior sin borrar lo que está en el stagein (cuando le pones add).
+
+	git reset (identificador de commit) --soft
+
+	*Cuando haces este lo que tenías en stagein se mantiene intacto. 
