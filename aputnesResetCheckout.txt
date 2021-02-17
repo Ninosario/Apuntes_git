@@ -8,4 +8,26 @@ Para volver a una versión anterior sin borrar lo que está en el stagein (cuand
 
 	git reset (identificador de commit) --soft
 
-	*Cuando haces este lo que tenías en stagein se mantiene intacto. 
+	*Cuando haces este lo que tenías en stagein se mantiene intacto.
+
+
+¡¡¡¡¡Creo que check out es para trabajar con archivos específicos!!!!
+
+
+Para ver como era un archivo antes en una versión específica sin cambiar el HEAD podemos usar 
+
+	git checkout (versión) (archivo) 
+
+	*En el archivo del directorio de trabajo podremos ver como era este en esa versión pero no se
+	modifica lo que está en HEAD. 
+
+Para regresar a lo que tenemos en HEAD podemos hacer 
+
+	git master (archivo)
+
+	*Regresamos al master que es la última versión al que se le hizo commit.
+
+Para mantener permanente el regreso a una versión anterior con checkout solo se hace un commit despues de haber hecho un checkout
+
+	git commit -am"mensaje"
+
