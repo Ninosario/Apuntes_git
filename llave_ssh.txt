@@ -1,0 +1,16 @@
+Para generar una llave ssh primero nos desplazamos a nuestro home.
+Posteriormente escribimos el siguiente comando. 
+	
+	ssh-keygen -t rsa -b 4096 -C "[correo que está vinculado con git]"
+
+	La te pide que coloques el lugar donde se guardarán la llave pública 	y la privada. Que generalemente por defecto te pone ~/.ssh/
+
+Después comprobaremos que el agente ssh esté activo con el siguiente comando
+
+	eval $(ssh-agent - s)
+
+Y luego agregaremos la llave privada (la que no tiene extensión .pub) con el siguiente comando.
+
+	ssh-add ~/.ssh/id_rsa
+
+
