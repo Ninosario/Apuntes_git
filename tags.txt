@@ -13,16 +13,9 @@ Y luego ejecutas el siguiente comando
 
 Para ver los tags que tienes. 
 
-	git tag
+	git tags
 
 Si quieres ver los tags y a qué commit están asociados ejecutas:
 
 	git show-ref --tags
-
-Los tags son útiles en git-hub por lo que es bueno hacer un git push despuésde poner los tags aunque no aparezca como un cambio cuando haces 
-
-	git status 
-
-Después de hacer un tag
-
 
