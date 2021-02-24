@@ -1,21 +1,43 @@
-Para agragar un etiqueta a un commit 
-Primero ejecutas el comando para ver el árbol de versiones de tu repositorio donde puedes ver el hsash. 
+1. Para agragar un etiqueta a un commit 
+	
+
+	Primero ejecutas el comando para ver el árbol de versiones de tu repositorio donde puedes ver el hsash. 
+
+
 
 	git log --all --graph --decorate --oneline
 
-Copias el hash que es una combinación de números y letras que se ubica al lado de cada comit para identificarlo. 
 
-Y luego ejecutas el siguiente comando
+
+	Copias el hash que es una combinación de números y letras que se ubica al lado de cada comit para identificarlo. 
+
+
+
+2. Y luego ejecutas el siguiente comando
+
+
 
 	git tag -a [Nombre del tag] -m "Mensaje que quieras ponerle al tag" [hash]
 
+
+
 	*Lo convencional es que pongas el nombre del tag con v[Número de versión como: 0.1, 1.0, etc]
 
-Para ver los tags que tienes. 
+
+
+3. Para ver los tags que tienes. 
+
+
 
 	git tags
 
-Si quieres ver los tags y a qué commit están asociados ejecutas:
+
+
+4. Si quieres ver los tags y a qué commit están asociados ejecutas:
+
+
 
 	git show-ref --tags
 
+
+5. 
