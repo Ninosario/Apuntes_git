@@ -1,15 +1,43 @@
 Buen día
-Aquí voy a agregar los comandos que voy aprendiendo para trabajar con github, estarán 
-junto con una descripción breve. 
+Aquí voy a agregar los comandos que voy aprendiendo para trabajar con github, estarán junto con una descripción breve. 
 
-1. Para poder enviar el repositorio local al repositorio remoto lo primero es agregar
-la dirección del repositorio remoto previamente creada en github.
 
-    git remote add origin "dirección del repositorio remoto"
+1. Para poder enviar el repositorio local al repositorio remoto lo primero es agregar la dirección del repositorio remoto previamente creada en github.
 
-Nota: debo investigar por qué se pone origin y no otro nombre, pero supongo que es una 
-convención de buenas prácticas como dice doña Freda. 
 
+
+	git remote add origin "dirección del repositorio remoto"
+
+
+
+Nota: debo investigar por qué se pone origin y no otro nombre, pero supongo que es una convención de buenas prácticas como dice doña Freda. 
+
+
+2. Para conocer si hay archivos en el stagein o si ha cambios que no se han agregado al stagein.
+
+	
+	git status
+
+
+3. Para agregar los comandos al stagein.
+
+
+	git add [Nombre del archivo]
+
+
+4. Para hacer un commit.
+
+
+	git commit -m"[Mensaje para el commit]
+
+
+5. Para conocer el historial de commmits que se han hecho 
+
+
+	git log
+
+
+6. 
 
 
 Saludos
