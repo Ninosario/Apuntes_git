@@ -1,3 +1,3 @@
-1. Para generar un alias 
+Para generar un alias 
 
 	alias [Nombre del alias cómo vas a llamar al comando]="[Comando al que le quieres aplicar el alias]"

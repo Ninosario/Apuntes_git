@@ -1,33 +1,15 @@
-1. Para agregar una rama nueva se puede emplear el siguiente comando.
-
-
+Para agregar una rama nueva se puede emplear el siguiente comando.
 
 	git branch (nombre de la rama)
 
-
-
-2. Y puedes eliminarla con 
-
-
+Y puedes eliminarla con 
 
 	git branch (nombre de la rama) -D
 
-
-
-3. Para saber cuales ramas existen dentro de tu repositorio
-
-
+Para saber cuales ramas existen dentro de tu repositorio
 
 	git branch
 
+Para cambiarte de rama 
 
-
-4. Para cambiarte de rama 
-
-
-
-	git checkout (nombre de la rama)
-
-
-
- 
+	git checkout (nombre de la rama) 
