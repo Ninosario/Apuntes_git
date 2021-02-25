@@ -1,3 +1,6 @@
+Buenos días estos apuntes son de Daniel pero puede colaborar en lo que creasnecesario. Bienvenido. 
+
+
 Para generar un alias 
 
 	alias [Nombre del alias cómo vas a llamar al comando]="[Comando al que le quieres aplicar el alias]"
