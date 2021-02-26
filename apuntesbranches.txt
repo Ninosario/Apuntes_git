@@ -1,3 +1,5 @@
+Buenos días estos apuntes son de Daniel pero puede colaborar en lo que creasnecesario. Bienvenido. 
+
 Para agregar una rama nueva se puede emplear el siguiente comando.
 
 	git branch (nombre de la rama)

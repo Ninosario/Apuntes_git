@@ -1,4 +1,6 @@
-Buen día
+Buenos días estos apuntes son de Daniel pero puede colaborar en lo que creasnecesario. Bienvenido. 
+
+ 
 Aquí voy a agregar los comandos que voy aprendiendo para trabajar con github, estarán 
 junto con una descripción breve. 
 

@@ -1,3 +1,5 @@
+Buenos días estos apuntes son de Daniel pero puede colaborar en lo que creasnecesario. Bienvenido. 
+
 1. Para volver a un commit anterior para ponerlo como HEAD
 
 
